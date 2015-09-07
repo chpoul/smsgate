@@ -108,7 +108,7 @@ public class SmsReceiver extends BroadcastReceiver {
         }
         @Override
         protected void onPostExecute(String result) {
-            writeToLog("SMS forwarded to server." + result);
+            writeToLog("SMS forwarded to server. " + result);
         }
     }
 
