@@ -82,7 +82,7 @@ public class SmsReceiver extends BroadcastReceiver {
             try {
                 sendParams = "KEY=" + URLEncoder.encode(serverKey, "UTF-8") +
                         "&FROM=" + URLEncoder.encode(from, "UTF-8") +
-                        "&DATA=" + URLEncoder.encode(str, "UTF-8");
+                        "&MSG=" + URLEncoder.encode(str, "UTF-8");
                 new DownloadWebpageTask().execute(link, sendParams, from);
             } catch (Exception e) {
                 writeToLog("ERROR: Can't send SMS to server!");
