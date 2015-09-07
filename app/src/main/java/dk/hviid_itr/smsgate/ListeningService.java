@@ -164,7 +164,8 @@ public class ListeningService extends Service {
             try {
                 JSONresult = new JSONArray(result);
             } catch (Exception e) {
-                Log.d(TAG, "Result is not JSON!");
+								writeToLog("Server returns: " + result);
+                Log.d(TAG, "Result is not JSON!\nServer returns: " + result);
             }
             if (JSONresult != null) {
                 JSONlen = JSONresult.length();
