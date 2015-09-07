@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">SMSgate</string>
+
+    <string name="link">Server link:</string>
+    <string name="action_settings">Settings</string>
+    <string name="serverKeyTitle">Server key:</string>
+    <string name="linkHint">Server URL…</string>
+    <string name="serverKeyHint">Server key…</string>
+    <string name="cron">Start / Stop</string>
+    <string name="not_run">Not running!</string>
+    <string name="cron_run">Listening for messages…</string>
+    <string name="no_network">No data connection…</string>
+
+    <string name="title_activity_settings">Settings</string>
+    <string name="prefs_listen">Settings for listening</string>
+    <string name="prefs_link">Server URL</string>
+    <string name="prefs_key">Server key</string>
+    <string name="prefs_freq">Seconds between checking for messages (default: 30)</string>
+
+    <string name="serverlink_key">serverlink_key</string>
+    <string name="serverkey_key">serverkey_key</string>
+    <string name="serverfreq_key">serverfreq_key</string>
+
+</resources>

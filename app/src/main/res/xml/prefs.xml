@@ -1,0 +1,34 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/prefs_listen">
+
+        <EditTextPreference
+            android:key="@string/serverlink_key"
+            android:title="@string/prefs_link"
+            android:defaultValue=""
+            android:selectAllOnFocus="true"
+            android:inputType="textUri"
+            android:singleLine="true"
+            android:maxLines="1" />
+
+        <EditTextPreference
+            android:key="@string/serverkey_key"
+            android:title="@string/prefs_key"
+            android:defaultValue=""
+            android:selectAllOnFocus="true"
+            android:inputType="text"
+            android:singleLine="true"
+            android:maxLines="1" />
+
+        <EditTextPreference
+            android:key="@string/serverfreq_key"
+            android:title="@string/prefs_freq"
+            android:defaultValue=""
+            android:selectAllOnFocus="true"
+            android:inputType="number"
+            android:singleLine="true"
+            android:maxLines="1" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
