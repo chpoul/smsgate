@@ -2,7 +2,7 @@
 
 SMSgate is an Android app that sends SMS-messages from JSON data fetched from a URL. It also forwards received SMS-messages to the same URL, as POST requests. It is intended to use as a way to send and receive SMS-messages from webpages.
 
-Note that the app prevents the phone from sleeping, and therefore should only be used, when connected to a charger.
+Note that the app prevents the phone from sleeping, and therefore should only be used, when connected to a charger. Also be aware that Android usually contains a limit for how many messages can be send - you will need root to circumvent this limitation.
 
 A test-php file is also included, in order to show how to communicate with the app from a webserver.
 
