@@ -2,18 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/home/chpoul/Dropbox/AndroidstudioProjects/SMSgate/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jar="/home/chpoul/Dropbox/AndroidstudioProjects/SMSgateGit/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
-        <dex dex="/home/chpoul/Dropbox/AndroidstudioProjects/SMSgate/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-aa280c2052acb1c1aea5867346434b28058c58ba.jar" />
-    </item>
-    <item
-        jar="/home/chpoul/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
-        <dex dex="/home/chpoul/Dropbox/AndroidstudioProjects/SMSgate/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-83dcfcb4af07ef63c91c06c0499fbe470469029c.jar" />
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/home/chpoul/Dropbox/AndroidstudioProjects/SMSgateGit/app/build/intermediates/pre-dexed/debug/classes-36c4e9701c3507f4afb917b2f4998df15c13341f.jar" />
     </item>
     <item
         jar="/home/chpoul/Dropbox/AndroidstudioProjects/SMSgate/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
@@ -23,6 +16,20 @@
         <dex dex="/home/chpoul/Dropbox/AndroidstudioProjects/SMSgate/app/build/intermediates/pre-dexed/debug/classes-eb3d5befb3b4a05af19a25d07a4d79a5c9167bcc.jar" />
     </item>
     <item
+        jar="/home/chpoul/Dropbox/AndroidstudioProjects/SMSgate/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/home/chpoul/Dropbox/AndroidstudioProjects/SMSgate/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-aa280c2052acb1c1aea5867346434b28058c58ba.jar" />
+    </item>
+    <item
+        jar="/home/chpoul/Dropbox/AndroidstudioProjects/SMSgateGit/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/home/chpoul/Dropbox/AndroidstudioProjects/SMSgateGit/app/build/intermediates/pre-dexed/debug/classes-2c5bf30c3f732e2e5b13ac93241b9f903eaa5ac9.jar" />
+    </item>
+    <item
         jar="/home/chpoul/Dropbox/AndroidstudioProjects/SMSgate/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -30,25 +37,18 @@
         <dex dex="/home/chpoul/Dropbox/AndroidstudioProjects/SMSgate/app/build/intermediates/pre-dexed/debug/classes-018b50be83f1a0245775670797bd3d4e1f9b96c6.jar" />
     </item>
     <item
-        jar="/home/chpoul/SMSgateGit/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jar="/home/chpoul/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/home/chpoul/Dropbox/AndroidstudioProjects/SMSgate/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-83dcfcb4af07ef63c91c06c0499fbe470469029c.jar" />
+    </item>
+    <item
+        jar="/home/chpoul/Dropbox/AndroidstudioProjects/SMSgateGit/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
-        <dex dex="/home/chpoul/SMSgateGit/app/build/intermediates/pre-dexed/release/internal_impl-22.2.1-dc088b2d4d2efbc6a5b660ee97684428f1299fc5.jar" />
-    </item>
-    <item
-        jar="/home/chpoul/SMSgateGit/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="f8efd0096475e0daf054267b61544e10dc776503">
-        <dex dex="/home/chpoul/SMSgateGit/app/build/intermediates/pre-dexed/release/classes-7e199f9ad40dee576cc42a9eaba554ff84fa0d05.jar" />
-    </item>
-    <item
-        jar="/home/chpoul/SMSgateGit/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
-        <dex dex="/home/chpoul/SMSgateGit/app/build/intermediates/pre-dexed/release/classes-94c0cc26ca2f626b075fa3e479773eba8205c76f.jar" />
+        <dex dex="/home/chpoul/Dropbox/AndroidstudioProjects/SMSgateGit/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-f13de96f9debf10ce0359d08c7245e1f49166107.jar" />
     </item>
 
 </items>
