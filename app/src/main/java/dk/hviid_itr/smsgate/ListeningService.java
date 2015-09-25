@@ -80,7 +80,11 @@ public class ListeningService extends Service {
         prefs = PreferenceManager.getDefaultSharedPreferences(this);
         link = prefs.getString(getResources().getString(R.string.serverlink_key), "");
         serverKey = prefs.getString(getResources().getString(R.string.serverkey_key), "");
-        freq = Integer.valueOf(prefs.getString(getResources().getString(R.string.serverfreq_key), "30"));
+        String servFreq = prefs.getString(getResources().getString(R.string.serverfreq_key), "30");
+        if (servFreq == "") {//Checks for empty string as frequency and sets default
+            servFreq = "30";
+        }
+        freq = Integer.valueOf(servFreq);
 
         //sendIds = prefs.getStringSet("sendIds", null);
         sendIds = new ArrayList<>();
@@ -95,7 +99,7 @@ public class ListeningService extends Service {
             public void onReceive(Context context, Intent intent) {
                 switch (getResultCode()) {
                     case Activity.RESULT_OK:
-                        writeToLog("SMS send!");
+                        writeToLog("SMS/SMS part sent!");
                         break;
                     case SmsManager.RESULT_ERROR_GENERIC_FAILURE:
                     case SmsManager.RESULT_ERROR_NO_SERVICE:
@@ -260,7 +264,19 @@ public class ListeningService extends Service {
         }
         PendingIntent sentPendingIntent = PendingIntent.getBroadcast(this, 0, new Intent(SMS_SENT), 0);
         SmsManager smsManager = SmsManager.getDefault();
-        smsManager.sendTextMessage(No, null, Msg, sentPendingIntent, null);
+        int msgLen = Msg.length();
+        if (msgLen < 160) {
+            smsManager.sendTextMessage(No, null, Msg, sentPendingIntent, null);
+        }
+        else {
+            ArrayList<String> MsgArr = smsManager.divideMessage(Msg);
+            ArrayList<PendingIntent> PenIntArr = new ArrayList<>();
+            for (int i=0; i<MsgArr.size(); ++i) {
+                PendingIntent msgPartPenInt = PendingIntent.getBroadcast(this, 0, new Intent(SMS_SENT), 0);
+                PenIntArr.add(msgPartPenInt);
+            }
+            smsManager.sendMultipartTextMessage(No, null, MsgArr, PenIntArr, null);
+        }
         writeToLog("Sending SMS to " + No + "...");
         returnToSender(Id);
         //logMsg(Id);
